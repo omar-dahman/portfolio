@@ -110,6 +110,18 @@ a:hover { text-decoration: underline; }
 }
 .theme-toggle:hover { color: var(--accent); border-color: var(--accent); }
 
+.lang-switch {
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 5px 12px;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  flex-shrink: 0;
+}
+.lang-switch:hover { color: var(--accent); border-color: var(--accent); text-decoration: none; }
+
 /* Layout */
 main { max-width: var(--max-width); margin: 0 auto; padding: 0 24px; }
 
@@ -231,6 +243,17 @@ main { max-width: var(--max-width); margin: 0 auto; padding: 0 24px; }
 
 .card p { margin: 0 0 6px; }
 .card-loc { color: var(--text-muted); font-size: 0.85rem; font-style: italic; margin: 0 !important; }
+
+.card-tech { list-style: none; margin: 12px 0 10px; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.card-tech li {
+  background: var(--accent-soft);
+  color: var(--text);
+  border-radius: 999px;
+  padding: 3px 10px;
+  font-size: 0.78rem;
+}
+
+.card-link { font-size: 0.88rem; font-weight: 500; display: inline-block; margin-top: 4px; }
 
 /* Skills */
 .skills-grid {
