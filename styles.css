@@ -280,6 +280,11 @@ main { max-width: var(--max-width); margin: 0 auto; padding: 0 24px; }
   font-size: 0.85rem;
 }
 
+/* Activities */
+.activities-list { margin: 0; padding-left: 1.1em; }
+.activities-list li { margin-bottom: 8px; color: var(--text); }
+.activities-list li:last-child { margin-bottom: 0; }
+
 /* Contact */
 .contact-links {
   display: flex;
