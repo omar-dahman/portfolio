@@ -244,7 +244,7 @@ main { max-width: var(--max-width); margin: 0 auto; padding: 0 24px; }
 .card p { margin: 0 0 6px; }
 .card-loc { color: var(--text-muted); font-size: 0.85rem; font-style: italic; margin: 0 !important; }
 
-.card-tech { list-style: none; margin: 12px 0 10px; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.card-tech { list-style: none; margin: 12px 0 10px; padding: 0; display: flex; flex-wrap: wrap; align-items: flex-start; align-content: flex-start; gap: 6px; }
 .card-tech li {
   background: var(--accent-soft);
   color: var(--text);
