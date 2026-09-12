@@ -7,7 +7,7 @@ Site portfolio statique (HTML/CSS/JS pur), hébergé gratuitement sur GitHub Pag
 - `index.html` — contenu du site
 - `styles.css` — styles (thème clair/sombre automatique + bouton de bascule)
 - `script.js` — bascule de thème, année du footer
-- `assets/CV_Omar_DAHMAN.pdf` — CV téléchargeable
+- `assets/CV_Omar_DAHMAN_FR.pdf`, `assets/CV_Omar_DAHMAN_EN.pdf` — CV téléchargeables (FR/EN)
 
 ## Développement local
 
