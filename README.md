@@ -1,34 +1,6 @@
-# Portfolio — Omar Dahman
+# Bonjour, je suis Omar 👋
 
-Site portfolio statique (HTML/CSS/JS pur), hébergé gratuitement sur GitHub Pages.
+Élève ingénieur à l'**ENSIIE** (Paris), après deux ans de classes préparatoires MPSI/PSI au Lycée du Parc.
+Je m'intéresse aux mathématiques appliquées et à l'intelligence artificielle : machine learning, science des données et computer vision.
 
-## Structure
-
-- `index.html` — contenu du site
-- `styles.css` — styles (thème clair/sombre automatique + bouton de bascule)
-- `script.js` — bascule de thème, année du footer
-- `assets/CV_Omar_DAHMAN_FR.pdf`, `assets/CV_Omar_DAHMAN_EN.pdf` — CV téléchargeables (FR/EN)
-
-## Développement local
-
-Ouvrir `index.html` dans un navigateur, ou lancer un petit serveur local :
-
-```
-python -m http.server 8000
-```
-
-puis aller sur http://localhost:8000
-
-## Déploiement sur GitHub Pages (gratuit)
-
-1. Créer un dépôt GitHub (ex: `portfolio`).
-2. Depuis ce dossier :
-   ```
-   git remote add origin https://github.com/<ton-user>/portfolio.git
-   git branch -M main
-   git push -u origin main
-   ```
-3. Sur GitHub : Settings → Pages → Source: "Deploy from a branch" → Branch: `main` / `root`.
-4. Le site sera disponible sur `https://<ton-user>.github.io/portfolio/` après 1-2 minutes.
-
-Pour un domaine personnalisé plus tard, ajouter un fichier `CNAME` et configurer les DNS chez le registrar (compter ~10€/an pour un nom de domaine, l'hébergement reste gratuit).
+🎯 **Je recherche un stage de 3 à 4 mois à partir de mai 2027** en IA, data science ou computer vision.
